@@ -27,3 +27,6 @@ osqueryi "SELECT * FROM users" --json
 osqueryi "SELECT * FROM system_info" --json
 osqueryi "SELECT * FROM logged_in_users WHERE type='user'" --json
 ```
+
+## Documentation
+[Schema](https://osquery.io/schema/5.7.0/)
