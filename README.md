@@ -20,3 +20,10 @@ You can enter a shell-like interface where you can your queries using `osqueryi`
 ```bash
 osqueryi '<query>' --json
 ```
+
+### Examples
+```bash
+osqueryi 'SELECT * FROM users' --json
+osqueryi 'SELECT * FROM system_info' --json
+osqueryi "SELECT * FROM logged_in_users WHERE type='user'" --json
+```
