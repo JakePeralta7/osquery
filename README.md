@@ -13,3 +13,10 @@ rm -f osquery-5.7.0-1.linux.x86_64.rpm
 ```
 
 ## Usage
+### Enter the osquery interface
+You can enter a shell-like interface where you can your queries using `osqueryi`
+
+### Executing single query
+```bash
+osqueryi '<query>' --json
+```
