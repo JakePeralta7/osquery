@@ -29,4 +29,4 @@ osqueryi "SELECT * FROM logged_in_users WHERE type='user'" --json
 ```
 
 ## Documentation
-[Schema](https://osquery.io/schema/5.7.0/)
+[OSQuery Schema](https://osquery.io/schema/5.7.0/)
